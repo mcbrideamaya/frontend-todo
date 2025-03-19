@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #3b9167;
+  --primary-light: #8de7b4;
+  --primary-dark: #2a6a4b;
+  --background: #c9d7ca;
+  --foreground: #355238;
+  --accent: #f9fdfb;
+  --accent-light: #f9fdfb;
+  --accent-dark: #f9fdfb;
+  --success: #4CAF50;
+  --error: #de2d2d;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans);
+}
+
+.task-input {
+  background: var(--accent-light);
+  border: 1px solid var(--accent);
+}
+
+.calendar-container {
+  background: var(--background);
+}
